@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "5d305b0e-3bbf-458e-a5d7-00db553c6a9b",
+		"name": "Ultimo Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20329720"
+	},
+	"item": [
+		{
+			"name": "Enviar Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"tomas\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/topic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Revisar Topics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/topic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topic"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
